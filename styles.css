@@ -1,0 +1,96 @@
+
+* {
+    background-color: rgb(252, 247, 223) !important;
+    font-family:'Courier New', Courier, monospace;
+}
+
+h1{
+    margin-top:1em !important;
+    margin-bottom: -1em !important;
+    font-weight: 500 !important;
+    color: rgb(150, 87, 5) !important;
+}
+
+#bar{
+    margin-top: 3em !important;
+    margin-bottom: -4em !important;
+    font-size: 22px;
+    font-weight: 500;
+    color:rgb(119, 73, 0) !important
+}
+
+
+
+#major1 {
+    margin-top: 8%;
+    position: absolute;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    margin-left: 41vh;
+    background-color: transparent !important;
+}
+
+#major1 button {
+    display: inline-block;
+    margin-left: 3vh;
+    height: 40vh;
+    width: 11vh;
+    background-color: rgb(214, 188, 122) !important;
+    border: 1px groove;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 10px;
+}
+
+#major2 {
+    margin-top: 8%;
+    background-color: transparent !important;
+    position: absolute;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    margin-left: 88vh;
+}
+
+#major2 button {
+    margin-left: 3vh;
+    display: inline-block;
+    height: 40vh;
+    width: 11vh;
+    background-color: rgb(214, 188, 122) !important;
+    border: 1px groove;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 10px 10px;
+}
+#major1 button:active, #major2 button:active{
+    background-color: rgb(239, 227, 196) !important;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 0px;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+}
+
+#container button {
+    display: inline-block;
+    height: 70vh;
+    width: 15vh;
+    background-color: rgb(255, 255, 255) !important;
+    border: 1px groove;
+    border-radius: 10px;
+    box-shadow: rgba(103, 103, 103, 0.45) 0px 25px 20px -20px;
+    
+}
+
+#container button:active {
+    background-color: rgb(244, 244, 236) !important;
+    box-shadow: rgba(210, 210, 210, 0.45) 0px 0px 0px 0px !important;
+    
+}
+
+#container button p {
+    background-color: transparent !important;
+    margin-top: 20em;
+    color: rgb(135, 108, 13);
+}
